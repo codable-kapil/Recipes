@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "892B0594-4ADB-4E03-89CC-E6E7534142F2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipesTests/NetworkManagerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "testGetRecipes_Success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - b99b47636854ab09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - 8a1e23aea655543c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - f1e8becb3af3a70b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - 95d7628723df210a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - b99b47636854aab2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - 8a1e23aea6555587"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - f1e8becb3af3a6b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - 95d7628723df20b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - d6a7b629bfc5f872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/Current/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - e522d2e471c40747"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/Current/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - 9ed44f81ed62f470"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/Current/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "13382AB7-DC92-49D0-B10A-47AF9559AC97 - faeb93cdf44e7271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/Current/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C4182A5-B53F-4819-B11C-80EC16A19F3B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipesTests/NetworkManagerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testGetRecipes_Success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C4182A5-B53F-4819-B11C-80EC16A19F3B - f1e8becb3af3a6f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "6C4182A5-B53F-4819-B11C-80EC16A19F3B - f1e8becb3af3a613"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/TakeHomeTemplate/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "6C4182A5-B53F-4819-B11C-80EC16A19F3B - 9ed44f81ed62f7d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RecipesTests.NetworkManagerTests.testGetRecipes_Success() async -&gt; ()"
+                  moduleName = "RecipesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kapilshivhare/Documents/Current/Recipes/RecipesTests/NetworkManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
