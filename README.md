@@ -11,6 +11,20 @@ Features:
 3. Error Handling: Includes error states for network issues, empty content, and loading issues.
 4. Dependency Injection: The app uses dependency injection to manage services like network manager and image loading, making the app scalable and testable.
 
+<table>
+  <tr>
+    <th><strong>Light Mode</strong></th>
+    <th><strong>Dark Mode</strong></th>
+    <th><strong>Error Response</strong></th>
+    <th><strong>Empty Response</strong></th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/user-attachments/assets/9fb50fd0-cd51-4f05-b6b6-7a5443034630" width="480" /></td>
+    <td valign="top"><img src="https://github.com/user-attachments/assets/87f1f5a7-7375-4967-bbe8-e4fdf8639481" width="480" /></td>
+    <td valign="top"><img src="https://github.com/user-attachments/assets/258f916a-b794-4edd-b592-e2b4dfc0175e" width="480" /></td>
+    <td valign="top"><img src="https://github.com/user-attachments/assets/2ae2b696-62e7-4434-acb5-37c4a82cc545" width="480" /></td>
+  </tr>
+</table>
 
 ### Focus Areas
 
