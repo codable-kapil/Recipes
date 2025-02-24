@@ -30,13 +30,13 @@ The Recipe List iOS App is a SwiftUI-based mobile application that fetches and d
 
 For this app, I prioritized the following areas:
 
-1.** Network Handling and Error Management:** Ensuring the app handles network issues gracefully, such as displaying loading indicators, retrying failed requests, and showing relevant error messages.
+1. **Network Handling and Error Management:** Ensuring the app handles network issues gracefully, such as displaying loading indicators, retrying failed requests, and showing relevant error messages.
 
 2. **Image Caching:** This was a key feature to enhance performance, as images can be large. Caching images locally ensures the app remains responsive even after initial load.
 
 3. **Dependency Injection:** I wanted to ensure that the app is scalable and testable, so I used dependency injection to inject services like RecipeService and ImageManager.
 
-4.** State Management with SwiftUI:** I focused on managing app states such as loading, loaded, and error using @Published variables and the ViewState enum to create a smooth user experience.
+4. **State Management with SwiftUI:** I focused on managing app states such as loading, loaded, and error using `@Published` variables and the `ViewState` enum to create a smooth user experience.
 
 I chose to focus on these areas because they directly contribute to the app’s user experience and maintainability. The handling of dynamic data and performance optimization through image caching were particularly important given the potential size and quantity of data the app may handle in future.
 
@@ -73,10 +73,10 @@ The weakest part of the project might be error handling. While errors are displa
 
 Insights:
 
-- SwiftUI's Declarative UI: Using @Published for state management and SwiftUI's declarative style allowed me to quickly build the UI and handle various states (loading, error, etc.) effectively.
-- Swift Concurrency: Async/await (async throws) was leveraged for network calls, providing an elegant and readable way to handle asynchronous operations in Swift.
+- SwiftUI's Declarative UI: Using `@Published` for state management and SwiftUI's declarative style allowed me to quickly build the UI and handle various states (loading, error, etc.) effectively.
+- Swift Concurrency: Async/await (async throws) was leveraged for network calls, providing a simple and readable way to handle asynchronous operations in Swift.
 
 Constraints:
 
-Limited Time: Due to time constraints, I focused on building the essential functionality and ensuring the app was user-friendly and stable. Features like advanced caching and more detailed error recovery could be added in the future.
+**Limited Time:** Due to time constraints, I focused on building the essential functionality and ensuring the app was user-friendly and stable. Features like advanced caching and more detailed error recovery could be added in the future.
 
