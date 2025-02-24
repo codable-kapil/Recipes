@@ -2,11 +2,11 @@
 
 ### Summary
 
-The Recipe List iOS App is a SwiftUI-based mobile application that fetches and displays a list of recipes from a network source. The app allows users to view recipe names, cuisines, and images. It handles different states such as loading, empty, error, and successfully loaded recipes. The app also supports image caching for efficiency, especially when dealing with large images.
+The Recipe List iOS App is a SwiftUI-based mobile application that fetches and displays a list of recipes from a network source. The app allows users to view recipe names, cuisines, and images. It handles different states such as loading, empty, error, and successfully loaded recipes. The app also supports image caching for efficiency, especially when dealing with large images and limited network bandwidth.
 
 ### Features:
 
-1. **Dynamic Recipe Fetching:** Recipes are fetched from the given API, and the UI updates accordingly to show the loading state, error messages, or empty state if no recipes are found.
+1. **Dynamic Recipe Fetching:** Recipes are fetched from the given API, and the UI updates accordingly to show the loading state, error messages, or empty state if no recipes are found. User can refresh the list anytime using pull-to-refresh.
 2. **Image Caching:** Images of recipes are fetched from URLs and cached locally for quicker subsequent access.
 3. **Error Handling:** Includes error states for network issues, empty content, and loading issues.
 4. **Dependency Injection:** The app uses dependency injection to manage services like network manager and image loading, making the app scalable and testable.
@@ -67,7 +67,7 @@ The weakest part of the project might be error handling. While errors are displa
 
 - **Specific Error Messages:** Currently, error messages are generic. More specific error handling (e.g., differentiating between no internet connection or server issues) could provide a better user experience.
 
-- **Caching Strategy:** The image caching solution is quite basic. There could be improvements in terms of cache size management and cache invalidation strategies to ensure better memory and disk usage over time.
+- **Caching Strategy:** The image caching solution is quite basic. There could be improvements in terms of cache size management and cache invalidation strategies to ensure better memory and disk usage over time. App currently clears the cache when memory warning notification is recieved.
 
 ### Additional Information:
 
