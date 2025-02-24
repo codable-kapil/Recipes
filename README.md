@@ -4,12 +4,12 @@
 
 The Recipe List iOS App is a SwiftUI-based mobile application that fetches and displays a list of recipes from a network source. The app allows users to view recipe names, cuisines, and images. It handles different states such as loading, empty, error, and successfully loaded recipes. The app also supports image caching for efficiency, especially when dealing with large images.
 
-Features:
+### Features:
 
-1. Dynamic Recipe Fetching: Recipes are fetched from the given API, and the UI updates accordingly to show the loading state, error messages, or empty state if no recipes are found.
-2. Image Caching: Images of recipes are fetched from URLs and cached locally for quicker subsequent access.
-3. Error Handling: Includes error states for network issues, empty content, and loading issues.
-4. Dependency Injection: The app uses dependency injection to manage services like network manager and image loading, making the app scalable and testable.
+1. **Dynamic Recipe Fetching:** Recipes are fetched from the given API, and the UI updates accordingly to show the loading state, error messages, or empty state if no recipes are found.
+2. **Image Caching:** Images of recipes are fetched from URLs and cached locally for quicker subsequent access.
+3. **Error Handling:** Includes error states for network issues, empty content, and loading issues.
+4. **Dependency Injection:** The app uses dependency injection to manage services like network manager and image loading, making the app scalable and testable.
 
 <table>
   <tr>
@@ -30,13 +30,13 @@ Features:
 
 For this app, I prioritized the following areas:
 
-1. Network Handling and Error Management: Ensuring the app handles network issues gracefully, such as displaying loading indicators, retrying failed requests, and showing relevant error messages.
+1.** Network Handling and Error Management:** Ensuring the app handles network issues gracefully, such as displaying loading indicators, retrying failed requests, and showing relevant error messages.
 
-2. Image Caching: This was a key feature to enhance performance, as images can be large. Caching images locally ensures the app remains responsive even after initial load.
+2. **Image Caching:** This was a key feature to enhance performance, as images can be large. Caching images locally ensures the app remains responsive even after initial load.
 
-3. Dependency Injection: I wanted to ensure that the app is scalable and testable, so I used dependency injection to inject services like RecipeService and ImageManager.
+3. **Dependency Injection:** I wanted to ensure that the app is scalable and testable, so I used dependency injection to inject services like RecipeService and ImageManager.
 
-4. State Management with SwiftUI: I focused on managing app states such as loading, loaded, and error using @Published variables and the ViewState enum to create a smooth user experience.
+4.** State Management with SwiftUI:** I focused on managing app states such as loading, loaded, and error using @Published variables and the ViewState enum to create a smooth user experience.
 
 I chose to focus on these areas because they directly contribute to the app’s user experience and maintainability. The handling of dynamic data and performance optimization through image caching were particularly important given the potential size and quantity of data the app may handle in future.
 
@@ -55,19 +55,19 @@ Time Breakdown:
 
 ### Trade-offs and Decisions:
 
-1. Image Caching vs. Memory Usage: A decision was made to cache images locally using the file system to improve performance. However, this could potentially increase memory usage if not managed properly. I had to balance between keeping images in memory or storing them locally. I chose a local cache in the app's cache directory.
+1. **Image Caching vs. Memory Usage:** A decision was made to cache images locally using the file system to improve performance. However, this could potentially increase memory usage if not managed properly. I had to balance between keeping images in memory or storing them locally. I chose a local cache in the app's cache directory.
 
-2. Error Handling and Retry Logic: Rather than focusing on making every network call fully resilient with retries, I opted for a simpler error state and retry mechanism that focuses on presenting an error message and providing the option to retry fetching the data.
+2. **Error Handling and Retry Logic:** Rather than focusing on making every network call fully resilient with retries, I opted for a simpler error state and retry mechanism that focuses on presenting an error message and providing the option to retry fetching the data.
 
-3. Data Model & API Structure: I abstracted the network layer with a RecipeService protocol and a NetworkManager implementation. This allows flexibility for switching network implementations or mocking for testing.
+3. **Data Model & API Structure:** I abstracted the network layer with a RecipeService protocol and a NetworkManager implementation. This allows flexibility for switching network implementations or mocking for testing.
 
 ### Weakest Part of the Project
 
 The weakest part of the project might be error handling. While errors are displayed to the user, more advanced handling could have been implemented. For instance:
 
-- Specific Error Messages: Currently, error messages are generic. More specific error handling (e.g., differentiating between no internet connection or server issues) could provide a better user experience.
+- **Specific Error Messages:** Currently, error messages are generic. More specific error handling (e.g., differentiating between no internet connection or server issues) could provide a better user experience.
 
-- Caching Strategy: The image caching solution is quite basic. There could be improvements in terms of cache size management and cache invalidation strategies to ensure better memory and disk usage over time.
+- **Caching Strategy:** The image caching solution is quite basic. There could be improvements in terms of cache size management and cache invalidation strategies to ensure better memory and disk usage over time.
 
 ### Additional Information:
 
